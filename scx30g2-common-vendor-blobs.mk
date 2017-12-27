@@ -59,7 +59,8 @@ PROPRIETARIES := \
     bin/sswap \
     lib/lib_SoundAlive_play_ver125e.so \
     lib/soundfx/libaudiosa_sec.so \
-    lib/soundfx/libaudioeffectoffload.so
+    lib/soundfx/libaudioeffectoffload.so \
+    usr/keylayout/Generic.kl
 
 PRODUCT_COPY_FILES += \
     $(foreach f,$(PROPRIETARIES),vendor/samsung/scx30g2-common/proprietary/$(f):system/$(f))
