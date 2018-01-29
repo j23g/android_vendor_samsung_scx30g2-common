@@ -24,6 +24,7 @@ PROPRIETARIES := \
     lib/hw/gps.default.so \
     lib/liblcsagent.so \
     lib/libboost.so \
+    lib/libefuse.so \
     lib/egl/libGLES_mali.so \
     lib/libfactoryutil.so \
     lib/libomission_avoidance.so \
@@ -49,6 +50,7 @@ PROPRIETARIES := \
     lib/libsecnativefeature.so \
     lib/libomx_aacdec_sprd.so \
     lib/libomx_avcdec_hw_sprd.so \
+    lib/libomx_avcdec_sw_sprd.so \
     lib/libomx_avcenc_hw_sprd.so \
     lib/libomx_vpxdec_hw_sprd.so \
     lib/libomx_m4vh263dec_hw_sprd.so \
@@ -57,10 +59,10 @@ PROPRIETARIES := \
     lib/libomx_mp3dec_sprd.so \
     lib/hw/gralloc.sc8830.so \
     bin/sswap \
-    lib/lib_SoundAlive_play_ver125e.so \
+    lib/libsoundalive.so \
+    lib/lib_SoundAlive_play_plus_ver126a.so \
     lib/soundfx/libaudiosa_sec.so \
-    lib/soundfx/libaudioeffectoffload.so \
-    usr/keylayout/Generic.kl
+    lib/soundfx/libaudioeffectoffload.so 
 
 PRODUCT_COPY_FILES += \
     $(foreach f,$(PROPRIETARIES),vendor/samsung/scx30g2-common/proprietary/$(f):system/$(f))

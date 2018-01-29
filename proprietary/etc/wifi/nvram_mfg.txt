@@ -38,7 +38,7 @@ mcsbw202gpo=0x99999999
 propbw202gpo=0xdd
 
 # OFDM IIR :
-ofdmdigfilttype=18
+ofdmdigfilttype=17
 ofdmdigfilttypebe=18
 
 # PAPD mode:
