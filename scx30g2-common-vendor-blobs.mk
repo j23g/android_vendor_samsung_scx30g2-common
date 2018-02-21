@@ -20,11 +20,11 @@ PROPRIETARIES := \
     lib/libatparser.so \
     bin/gpsd \
     bin/gps.cer \
-    etc/gps.conf \
+    etc/media_codecs_performance.xml \
     lib/hw/gps.default.so \
+    lib/hw/gralloc.sc8830.so \
     lib/liblcsagent.so \
     lib/libboost.so \
-    lib/libefuse.so \
     lib/egl/libGLES_mali.so \
     lib/libfactoryutil.so \
     lib/libomission_avoidance.so \
@@ -33,6 +33,7 @@ PROPRIETARIES := \
     etc/wifi/bcmdhd_mfg.bin \
     etc/wifi/bcmdhd_sta.bin \
     etc/wifi/nvram_mfg.txt \
+    etc/wifi/nvram_net.txt \
     vendor/firmware/BCM43430A1_V0034.0089.hcd \
     vendor/firmware/vbc_eq \
     bin/rild \
@@ -57,7 +58,6 @@ PROPRIETARIES := \
     lib/libomx_m4vh263dec_sw_sprd.so \
     lib/libomx_m4vh263enc_hw_sprd.so \
     lib/libomx_mp3dec_sprd.so \
-    lib/hw/gralloc.sc8830.so \
     bin/sswap \
     lib/libsoundalive.so \
     lib/lib_SoundAlive_play_plus_ver126a.so \
